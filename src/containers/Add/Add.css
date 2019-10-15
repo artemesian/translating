@@ -1,0 +1,110 @@
+#add-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+#back-to-menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 20px;
+	left: 4%;
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	border:2px solid white;
+	background-color: transparent;
+	font-size: 28px;
+	color: white;
+	padding-right: 10px;
+	transition: all 0.4s ease-out;
+	cursor: pointer;
+}
+#back-to-menu:hover{
+	color:#00C0FD;
+	background-color: white;
+	border:none;
+	}
+#add-container{
+	width: 92%;
+	max-width: 1200px;
+	height: 94%;
+	max-height: 750px;
+	background-color: white;
+	border-radius: 0px 15px;
+	box-shadow: 12px 11px 5px 1px rgba(0,0,0,0.2);
+	display:flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 1;
+}
+#add-container>div{
+	height: 90%;
+	width:50%;
+	border-bottom:1px solid #0076ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#non-translate-block{
+	border-right: 3px solid #0076ff;
+}
+#translate-block{
+	border-left: 3px solid #0076ff;
+}
+#add-button{
+	display: block;
+	width: 100px;
+	height: 48px;
+	background-color: #0076ff;
+	position: absolute;
+	bottom: 12.5px;
+	right: 20px;
+	border: none;
+	border-radius: 0px 5px;
+	color: white;
+	font-size: 16px;
+	padding-left: 25px;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+#add-button>span{
+	font-size: 40px;
+	position: absolute;
+	left: 7px;
+	bottom:5px;
+}
+#add-button:hover{
+	background-color: white;
+	border:2px solid #0076ff;
+	color: #0076ff;
+	font-weight: bold;
+}
+.language-add{
+	font-style: italic;
+	width: 30%;
+	height: 40px;
+	margin-left: auto;
+	margin-right: 7.5px;
+	padding-left: 5px;
+	border:1px solid #00000033;
+	color:#000000bb;
+}
+.textarea-add{
+	border:1px solid #00000033;
+	font-style: italic;
+	height: 80%;
+	width: 100%;
+	color:#000000bb;
+}
+.textarea-add:focus{
+	font-style: normal;
+	color:#000000bb;
+}
+.language-add:focus{
+	font-style: normal;
+	color:#000000bb;
+}

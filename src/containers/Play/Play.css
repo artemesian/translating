@@ -1,0 +1,111 @@
+#play-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+#play-container{
+	width: 92%;
+	max-width: 1200px;
+	height: 94%;
+	max-height: 750px;
+	background-color: transparent;
+	border-radius: 0px 15px;
+	color: white;
+	display:flex;
+	justify-content: space-between;
+	position: relative;
+	flex-direction: column;
+	z-index: 1;
+}
+#play-block-intro-question{
+	font-size: 8vw;
+	width: 100%;
+	max-width: 1000px;
+	margin:auto;
+	position: relative;
+	top: -40px;
+}
+#play-from-to{
+	position: relative;
+	top:-75px;
+	width: 60%;
+	margin:0 auto;
+	height: 15%;
+}
+#play-from-to>span{
+	display: block;
+	width: 50%;
+	margin:20px auto 10px auto;
+}
+#play-from-to>button,#show-result{
+	display: block;
+	width: 100px;
+	height: 48px;
+	background-color: #00C0f4;
+	border: none;
+	border-radius: 0px 5px;
+	color: #eee;
+	font-size: 16px;
+	margin:0 auto;
+	cursor: pointer;
+	transition: all 0.2s linear;
+	font-weight: bold;
+}
+#play-from-to>button:hover,#show-result:hover{
+	background-color: white;
+	color: #0076ff;
+	font-weight: bold;
+}
+#play-from-to>input{
+	display: inline-block;
+	width: 120px;
+	height: 36px;
+	z-index: 2;
+	padding-left: 10px;
+	font-style: italic;
+	background-color: #fff;
+	border:none;
+	border-radius:15px;
+	box-shadow:3px 3px 10px 1px rgba(0,0,0,0.3);
+	margin:0 20px;
+	transition: all 0.2s linear;
+}
+#play-from-to>input:focus{
+    border:1.5px solid #0076ff;
+    border-radius: 0px 15px 0 0;
+    font-style: normal;
+    outline: none;
+}
+#timer{
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	background-color: white;
+	color: #0076ff;
+	font-size:30px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 20px;
+	right: 30px;
+	box-shadow:3px 3px 10px 1px rgba(0,0,0,0.3);
+}
+#play-answer{
+	width: 60% !important;
+	height: 45px !important;
+}
+#get-ready{
+	animation: fadeOut 5.500s linear;	
+}
+@keyframes fadeOut{
+	from{
+	color:white;
+	}
+	to{
+		color: transparent;
+	}
+}

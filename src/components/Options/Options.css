@@ -1,0 +1,49 @@
+#options-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+#options-container{
+	width: 90%;
+	max-width: 450px;
+	height: 500px;
+	background-color: white;
+	border-radius: 0px 15px;
+	box-shadow: 12px 11px 5px 1px rgba(0,0,0,0.2);
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	position: static;
+	z-index: 1;
+}
+#options-container>button{
+	height: 48px;
+	width: 55%;
+	border-radius: 0 10px;
+	color: white;
+	font-size: 18px;
+  border:none;
+  cursor: pointer;
+  box-shadow: 4px 5px 4px 1px rgba(0,0,0,0.2);
+  transition: all 0.25s ease-in-out;
+}
+#options-container>button:hover{
+	border:2px solid #0076F2;
+	color: #0076F2;
+	background-color: transparent;
+	font-weight: bold;
+	height: 50px;
+	width: 58%;
+}
+#search-btn{
+	background-color: #000000dd;
+}
+#play-btn{
+	background-color: #cc2622;
+}
+#add-btn{
+	background-color: #0076F2;
+}
