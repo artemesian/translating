@@ -1,0 +1,18 @@
+.result-item-block{
+  width:100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1fr 1fr 1fr 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding:7.5px 0; 
+}
+.result-item-block>span{
+  font-size: 18px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,12 @@
+.result-list-block{
+  width:100%;
+  max-width: 600px;
+  margin: 40px auto;
+}
+.bold{
+  font-weight: bold;
+  margin:0 0 20px 0;
+}
+.result-list-block>h1{
+  font-size: 100%;
+}

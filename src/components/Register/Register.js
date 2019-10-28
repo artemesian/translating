@@ -9,7 +9,7 @@ class Register extends Component {
             return alert("Passwords don't match")
           }
           else{
-           fetch("http://localhost:3001/register" ,{
+           fetch("https://warm-beach-09378.herokuapp.com/register" ,{
                method : "post",
                headers : {"Content-Type": "application/json"},
                body : JSON.stringify({

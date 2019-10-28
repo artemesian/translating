@@ -39,7 +39,7 @@
 	width: 50%;
 	margin:20px auto 10px auto;
 }
-#play-from-to>button,#show-result{
+.play-start{
 	display: block;
 	width: 100px;
 	height: 48px;
@@ -53,7 +53,7 @@
 	transition: all 0.2s linear;
 	font-weight: bold;
 }
-#play-from-to>button:hover,#show-result:hover{
+.play-start:hover{
 	background-color: white;
 	color: #0076ff;
 	font-weight: bold;
@@ -99,7 +99,7 @@
 	height: 45px !important;
 }
 #get-ready{
-	animation: fadeOut 5.500s linear;	
+	animation: fadeOut 11s linear;	
 }
 @keyframes fadeOut{
 	from{
@@ -108,4 +108,7 @@
 	to{
 		color: transparent;
 	}
+}
+#question-place{
+	text-transform: capitalize;
 }

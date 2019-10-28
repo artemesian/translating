@@ -9,7 +9,7 @@ const mapStateToProps=state=>({
 class Add extends Component{
 	add(){
 		 if(document.querySelectorAll(".textarea-add")[0].value && document.querySelectorAll(".textarea-add")[1].value){
-           fetch("http://localhost:3001/add" ,{
+           fetch("https://warm-beach-09378.herokuapp.com/add" ,{
                method : "post",
                headers : {"Content-Type": "application/json"},
                body : JSON.stringify({

@@ -5,7 +5,6 @@ import Add from "../Add/Add.js"
 import Search from "../Search/Search.js"
 import Play from "../Play/Play.js"
 import {connect} from "react-redux"
-import "./MainContent.css";
 import { setOption } from "../../actions.js"
 
 const mapStateToProps=state=>({

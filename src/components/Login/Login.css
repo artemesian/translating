@@ -4,7 +4,8 @@
     grid-template-rows: 20% 50% 20%;
     grid-row-gap: 5%;
     height: 500px;
-    width: 450px;
+    width:100%;
+    max-width: 450px;
     background-color: #ffffffF9;
     position:relative;
     top:20%;

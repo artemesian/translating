@@ -4,7 +4,7 @@ import {connect} from "react-redux";
 import Aux from "../hoc/Aux.js";
 import Message from "../../components/Message/Message.js";
 import MainContent from "../MainContent/MainContent.js";
-import {handleStartButton,handleSignupLoginButton,setLoggedIn} from "../../actions.js"
+import {setLoggedIn} from "../../actions.js"
 
 const mapStateToProps=state=>({
 	isRegistering:state.handleLogging.isRegistering,

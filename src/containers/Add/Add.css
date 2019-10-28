@@ -16,12 +16,13 @@
 	width: 55px;
 	border-radius: 50%;
 	border:2px solid white;
-	background-color: transparent;
+	background-color: #00C0FD;
 	font-size: 28px;
 	color: white;
 	padding-right: 10px;
 	transition: all 0.4s ease-out;
 	cursor: pointer;
+	z-index: 10;
 }
 #back-to-menu:hover{
 	color:#00C0FD;

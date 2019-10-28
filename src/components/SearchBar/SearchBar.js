@@ -7,7 +7,7 @@ const SearchBar=(props)=>{
         <div id="searchbar-wrapper">
             <div id="searchbar-container">
                 <img src={search} alt="search"/>
-                <input type="text"
+                <input type="search"
                     id="searchbar-input" 
                     placeholder="search here.........." 
                     onChange={(e)=>props.onInputChange("searchfield",e.target.value)}

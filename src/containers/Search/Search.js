@@ -1,7 +1,12 @@
 import React,{Component} from "react";
 import SearchBar from "../../components/SearchBar/SearchBar.js"
 import Card from "../../components/Card/Card.js"
+import {connect} from "react-redux";
 import "./Search.css";
+
+const mapStateToProps=state=>({
+	user:state.handleLogging.user
+})
 
 class Search extends Component{
 	constructor(){
@@ -27,13 +32,14 @@ class Search extends Component{
 
 	search(){
 		if (this.state.searchField && this.state.cardContent.from && this.state.cardContent.to ) {
-			fetch("http://localhost:3001/search",{
+			fetch("https://warm-beach-09378.herokuapp.com/search",{
 				method : "post",
 				headers : {"Content-Type":"application/json"},
 				body:JSON.stringify({
 									searchField:this.state.searchField,
 									translateTo:this.state.cardContent.to,
 									translateFrom:this.state.cardContent.from,
+									email: this.props.user.email
 								} )
 			})
 			.then(response=>response.json())
@@ -64,4 +70,4 @@ class Search extends Component{
 	}
 }
 
-export default Search;
+export default connect(mapStateToProps)(Search);
