@@ -1,14 +1,11 @@
 import { CHANGE_START_BUTTON, CHANGE_SIGNUP_LOGIN, CHANGE_LOGGEDIN,CHANGE_OPTION,CHANGE_USER} from "./constants.js";
 
 const initialState={
-    startButton:true,
-    isRegistering:true,
-    isLoggedIn:"true",
-    option:"play",
-    user : {
-        email:"angelodiepe10@yahoo.com",
-        name:"Diepe Angelo",
-    }
+    startButton:false,
+    isRegistering:false,
+    isLoggedIn:"false",
+    option:"",
+    user : {}
 }
 
 export const handleLogging=(state=initialState,action={})=>{
