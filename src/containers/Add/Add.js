@@ -39,11 +39,11 @@ class Add extends Component{
 			<button id="back-to-menu" onClick={()=>this.props.setOption(null)}>&#9668;</button>
 				<div id="add-container">
 					<div className="non-translate-block">
-						<h4 className="title-block-add">Translate From</h4>
-						<textarea placeholder="Good Morning!....." className="textarea-add"/>
+						<h4 className="title-block-add">Translate From(Fr)</h4>
+						<textarea placeholder="Bonjour!....." className="textarea-add"/>
 					</div>
 					<div id="translate-block">
-					<h4 className="title-block-add">Translate To</h4>
+					<h4 className="title-block-add">Translate To(De)</h4>
 						<textarea placeholder="Guten Tag!....." className="textarea-add"/>
 					</div>
 					<button id="add-button" onClick={()=>this.add()}><span>&#9787;</span> Add</button>
