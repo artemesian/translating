@@ -61,7 +61,6 @@ class App extends Component{
 		     :
 		    <Page setLoggedIn={this.props.setLoggedIn}/>
 		   	}
-	      {console.log(this.props)}
 	    </div>
 	  );
 	}

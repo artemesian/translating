@@ -131,19 +131,3 @@
         max-height: unset;
     }
 }
-/*.form-register{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 50% 20%;
-    grid-row-gap: 5%;
-    height: 500px;
-    width: 450px;
-    background-color: #ffffffF9;
-    position:relative;
-    top:20%;
-    margin:auto;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.35);
-    border-radius: 4px;
-    border-color:transparent;
-    animation: slideInLeft 800ms ease-in-out;
-}*/

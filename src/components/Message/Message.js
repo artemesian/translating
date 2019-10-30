@@ -10,7 +10,7 @@ const Message = (props) => {
 				:
 					" Back "
 				} 
-				&nbsp; <span id="message-user">{` ${props.user.name.split(" ")[0]}`}</span>
+				&nbsp; <span id="message-user">{`  ${props.user.name.split(" ")[0]}`}</span>
 			</div>
 		</div>
 		)

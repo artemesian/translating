@@ -26,5 +26,5 @@ code {
   width:100%;
   height: 100vh;
   background:linear-gradient(135deg,#00ccff,#0000dd);
-  font-family: "roboto mono";
+  font-family: 'Roboto Mono', monospace;
 }
