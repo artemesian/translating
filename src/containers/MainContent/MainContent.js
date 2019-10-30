@@ -30,7 +30,7 @@ class MainContent extends Component{
 						    <Add setOption={this.props.setOption}/>
 						  :
 						  <Aux>
-						  	<button id="back-to-menu" onClick={()=>this.props.setLoggedIn("false")}>&#9668;</button>
+						  	<button id="back-to-menu" onClick={()=>this.props.setLoggedIn("false")}>{'<'}</button>
 						  	<Options setOption={this.props.setOption}/>
 						  </Aux>
 					}

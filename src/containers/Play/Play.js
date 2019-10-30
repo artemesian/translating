@@ -76,7 +76,7 @@ class Play extends Component{
 	render(){
 		return (
 			<div id="play-wrapper">
-				{(this.state.start ==="started")? null :<button id="back-to-menu" onClick={()=>this.props.setOption(null)}>&#9668;</button>}
+				{(this.state.start ==="started")? null :<button id="back-to-menu" onClick={()=>this.props.setOption(null)}>{'<'}</button>}
 				<span id="timer">{this.state.count}</span>
 				<div id="play-container">
 					<div id="play-block-intro-question">

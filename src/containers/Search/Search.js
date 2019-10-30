@@ -54,7 +54,7 @@ class Search extends Component{
 	render(){
 		return (
 			<div id="search-wrapper">
-			<button id="back-to-menu" onClick={()=>this.props.setOption(null)}>&#9668;</button>
+			<button id="back-to-menu" onClick={()=>this.props.setOption(null)}>{'<'}</button>
 				<div id="search-container">
 					<SearchBar onInputChange={(type,text)=>this.onInputChange(type,text)}/>
 					<div id="search-from-to">

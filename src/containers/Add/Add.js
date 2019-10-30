@@ -36,7 +36,7 @@ class Add extends Component{
 	render(){
 		return (
 			<div id="add-wrapper">
-			<button id="back-to-menu" onClick={()=>this.props.setOption(null)}>&#9668;</button>
+			<button id="back-to-menu" onClick={()=>this.props.setOption(null)}>{'<'}</button>
 				<div id="add-container">
 					<div className="non-translate-block">
 						<h4 className="title-block-add">Translate From(Fr)</h4>
